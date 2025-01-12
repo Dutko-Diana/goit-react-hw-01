@@ -1,0 +1,58 @@
+.profile {
+  background-color: gainsboro;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.profileAvatar {
+  border-radius: 50%;
+  width: 164px;
+  height: 164px;
+  background-color: black;
+  margin: 20px auto;
+}
+
+.username {
+  font-weight: 600;
+  font-size: larger;
+}
+
+.tagAndLocation {
+  color: darkgrey;
+  font-size: medium;
+}
+
+.statsList {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
+
+.statsListItem {
+  background-color: darkgrey;
+  border-top: 2px solid dimgrey;
+  border-right: 2px solid dimgrey;
+  padding: 10px;
+  flex-shrink: 0;
+  min-width: 100px;
+}
+
+.statsListItem:last-child {
+  border-right: none;
+}
+
+.numbers {
+  font-weight: 600;
+}
+
+span {
+  display: block;
+}
