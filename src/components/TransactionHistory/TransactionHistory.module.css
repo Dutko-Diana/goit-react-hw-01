@@ -1,0 +1,27 @@
+.styledTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  margin: 20px 0;
+}
+
+.styledTable th,
+.styledTable td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.styledTable th {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.styledTable tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.styledTable tr:nth-child(odd) {
+  background-color: #ffffff;
+}
